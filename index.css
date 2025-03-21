@@ -5,8 +5,15 @@
 }
 
 body{
-    background: linear-gradient(to right,#00AAFF,#00FF6C);
+    background: linear-gradient(to left,pink,purple);
     /* background-color:rgb(193, 189, 189) ; */
+}
+.head{
+    color: black;
+    margin-bottom: 5px;
+    background-color: rgb(253, 199, 99);
+    border: dashed;
+    justify-self: right;
 }
 
 .container{
@@ -19,10 +26,10 @@ body{
 }
 
 .calculator{
-    width: 30%;
-    padding: 30px;
-    height: 60%;
-    background-color: #ffff;
+    width: 50%;
+    padding: 20px;
+    height: 90%;
+    background-color: #fff;
     /* box-shadow: 10px 10px 50px black; */
     border-radius: 20px;
 }
